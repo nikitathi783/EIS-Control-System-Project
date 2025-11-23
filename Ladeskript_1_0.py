@@ -57,13 +57,3 @@ def laden(sock):
     except Exception as e:
         print(f"Fehler beim Laden: {e}")
 
-#---Eis-Funktion--- (Nikita bitte hier einfügen fals fertig, noch nicht im Einstiegspunkt aufrufen das muss ich noch mit malte klären)
-
-# --- Einstiegspunkt ---
-# Gedacht für Testzwecke, um die Verbindung zur Power Supply herzustellen und den Ladevorgang zu starten
-# if __name__ == "__main__":
-#     sock = Comm_test.connect_to_power_supply(IP_CLIENT2, POWER_SUPPLY_PORT)
-#     if sock:
-#         laden(sock)
-#         sock.close()
-#         print("Verbindung geschlossen.")
