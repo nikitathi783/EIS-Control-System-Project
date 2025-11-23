@@ -1,12 +1,12 @@
 # Define the IP addresses (Müssen lokale IP-Adressen sein)
-IP_MASTER = "192.168.188.1"
-IP_CLIENT1 = "192.168.188.2"
-IP_CLIENT2 = "192.168.188.100" # (Power_SUPPLY)
+IP_MASTER = "Place the IP Address of Master Raspberry pi here"
+IP_CLIENT1 = "Place the IP Address of Client Raspberry pi here"
+IP_CLIENT2 = "Place the IP Address of Power Supply here" # (Power_SUPPLY)
 
 # Define the ports
-DEFAULT_PORT = 50000
-CLIENT1_PORT = 50100
-POWER_SUPPLY_PORT = 5025
+DEFAULT_PORT = enter port of master
+CLIENT1_PORT = enter port of client
+POWER_SUPPLY_PORT = enter port of power supply
 
 # Define the timeouts and retries in ms
 CONNECTION_TIMEOUT = 15
@@ -31,3 +31,4 @@ CHARGE_CURRENT = 1
 CHARGE_VOLTAGE = 14.6
 CHECK_INTERVAL = 5
 TIMEOUT_MINUTES = 1  
+
